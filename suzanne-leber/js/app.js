@@ -35,8 +35,8 @@ function displayPics(){
     }
   }
   
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
-  // const limits the constiable's scope to that particular block and any contained sub-blocks, whereas the scope of 'const' is the entire enclosing function. That means you can not call a 'const' constiable outside of its containing block.
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
+  // let limits the variable's scope to that particular block and any sub-blocks within, whereas the scope of 'var' is the entire enclosing function. That means you will get and error if you try to call a 'let' variable outside of its containing block.
   console.log(viewed)
 
   // To the DOM and beyond!

@@ -21,11 +21,10 @@ Follow these instructions carefully and in order.
 ---
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
-
-(Put your answer here)
+I needed to change `const` to `let` in for `i` in `for` loops and for the variable `totalClicks` and the `allProducts` array, but I was able to keep other arrays as `const` even though their contents would be changed. Variables for appending to the DOM also worked fine as `const`.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Using template literal notation made it way easier to concatenate strings and I will definitely be using it from now on.
